@@ -14,7 +14,7 @@
                         <a href="<?= site_url(); ?>">Inicio</a>
                     </li>
                     <li class="active">
-                        <strong>Company Setup</strong>
+                        <strong>Configuracion de la empresa</strong>
                     </li>
                 </ol>
             </div>
@@ -45,9 +45,9 @@
 
                     <ul class="nav nav-tabs tab-border-top-danger">
                         <li class="active">
-                            <a data-toggle="tab" href="#tab-info">Company Information</a>
+                            <a data-toggle="tab" href="#tab-info">Informacion de la empresa</a>
                         </li>
-                        <li><a data-toggle="tab" href="#tab-smtp">SMTP Setup</a></li>                      
+                        <li><a data-toggle="tab" href="#tab-smtp">Configuracion SMTP</a></li>                      
 
                     </ul>
 
@@ -71,7 +71,7 @@
                                     </div>
 
                                     <div id="container">
-                                        <a id="browsefile" href="javascript:;" class="btn btn-default">Browse</a> 
+                                        <a id="browsefile" href="javascript:;" class="btn btn-default">Buscar</a> 
                                     </div>
                                 </div>
                             </div>
@@ -322,7 +322,7 @@
                             <input type="hidden" name="smtp_id" value="<?= $smtp_info->smtp_id; ?>" />
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">
-                                    SMTP Host:
+                                    Host SMTP :
                                 </label>
                                 <div class="col-sm-10">
                                     <input type="text" name="smtp_host" class="form-control" value="<?= $smtp_info->smtp_host; ?>" />
@@ -332,7 +332,7 @@
 
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">
-                                    SMTP Port:
+                                    PuertoSMTP:
                                 </label>
                                 <div class="col-sm-10">
                                     <input type="text" name="smtp_port" class="form-control" value="<?= $smtp_info->smtp_port; ?>" />
@@ -342,7 +342,7 @@
 
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">
-                                    SMTP User:
+                                   Usuario SMTP:
                                 </label>
                                 <div class="col-sm-10">
                                     <input type="text" name="smtp_user" class="form-control" value="<?= $smtp_info->smtp_user; ?>" />
@@ -352,7 +352,7 @@
 
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">
-                                    SMTP Password:
+                                   Password SMTP:
                                 </label>
                                 <div class="col-sm-10">
                                     <input type="text" name="smtp_pass" class="form-control" value="<?= $smtp_info->smtp_pass; ?>" />

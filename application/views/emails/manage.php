@@ -29,7 +29,7 @@
                         <a>Email Templates</a>
                     </li>
                     <li class="active">
-                        <strong>List</strong>
+                        <strong>Ver todos</strong>
                     </li>
                 </ol>
             </div>

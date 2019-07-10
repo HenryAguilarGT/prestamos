@@ -36,10 +36,10 @@
                         <a href="<?= site_url(); ?>">Inicio</a>
                     </li>
                     <li>
-                        <a>Loans</a>
+                        <a>Prestamos</a>
                     </li>
                     <li class="active">
-                        <strong>List</strong>
+                        <strong>Ver todos</strong>
                     </li>
                 </ol>
             </div>

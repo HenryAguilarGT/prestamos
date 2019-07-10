@@ -29,7 +29,7 @@
                         <a><?=$this->lang->line('module_' . $controller_name);?></a>
                     </li>
                     <li class="active">
-                        <strong>List</strong>
+                        <strong>Ver todos</strong>
                     </li>
                 </ol>
             </div>

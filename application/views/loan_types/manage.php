@@ -24,10 +24,10 @@
                         <a href="<?= site_url(); ?>">Inicio</a>
                     </li>
                     <li>
-                        <a>Loan Types</a>
+                        <a>Tipos de prestamos</a>
                     </li>
                     <li class="active">
-                        <strong>List</strong>
+                        <strong>Ver todos</strong>
                     </li>
                 </ol>
             </div>

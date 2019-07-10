@@ -19,7 +19,7 @@ $lang['module_reports_desc'] = 'Ver y generar reportes';
 $lang['module_items'] = 'Artículos';
 $lang['module_items_desc'] = 'Agregar, Actualizar, Borrar y Buscar artículos';
 
-$lang['module_config'] = 'Configuración de la Compaña';
+$lang['module_config'] = 'Configuración de la empresa';
 $lang['module_config_desc'] = 'Cambiar la configuración de la tienda';
 
 $lang['module_receivings'] = 'Recepción';
