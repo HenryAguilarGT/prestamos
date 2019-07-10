@@ -14,7 +14,7 @@
 
 <div class="hide-staff" style="display: none;">
     <select class="form-control input-sm hidden-xs" id="sel-staff">
-        <option value="0">Select staff</option>
+        <option value="0">Seleccione empleado</option>
         <?php foreach ($staffs as $staff): ?>
             <option value="<?= $staff->person_id; ?>" <?= ((isset($_GET['employee_id'])) && $_GET['employee_id'] === $staff->person_id) ? 'selected="selected"' : ""; ?>><?= $staff->first_name . " " . $staff->last_name; ?></option>
         <?php endforeach; ?>
@@ -28,13 +28,13 @@
                 <h2><?php echo $this->lang->line('common_list_of') . ' ' . $this->lang->line('module_' . $controller_name); ?></h2>
                 <ol class="breadcrumb">
                     <li>
-                        <a href="<?= site_url(); ?>">Home</a>
+                        <a href="<?= site_url(); ?>">Inicio</a>
                     </li>
                     <li>
-                        <a>Payments</a>
+                        <a>Pagos</a>
                     </li>
                     <li class="active">
-                        <strong>List</strong>
+                        <strong>Ver todos</strong>
                     </li>
                 </ol>
             </div>

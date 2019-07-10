@@ -11,7 +11,7 @@
 
         <div class="container">
 
-            <h1><strong>Congratulations! You have successfully installed K-Loans System</strong></h1>
+            <h1><strong>Congratulations! You have successfully installed Prestamos System</strong></h1>
 
             <h3>For security reason, Please delete the installation folder located at <?= str_replace(array("/index.php", "/welcome"), "", $_SERVER['PHP_SELF']) ?>/install directory.</h3>
 

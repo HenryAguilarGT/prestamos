@@ -9,7 +9,7 @@
 
 <div class="hide-staff" style="display: none;">
     <select class="form-control input-sm hidden-xs" id="sel-staff">
-        <option value="0">Select staff</option>
+        <option value="0">Seleccione empleado</option>
         <?php foreach ($staffs as $staff): ?>
             <option value="<?= $staff->person_id; ?>" <?= ((isset($_GET['employee_id'])) && $_GET['employee_id'] === $staff->person_id) ? 'selected="selected"' : ""; ?>><?= $staff->first_name . " " . $staff->last_name; ?></option>
         <?php endforeach; ?>
@@ -51,7 +51,7 @@
                     <?php echo anchor("$controller_name/delete", $this->lang->line("common_delete"), array('id' => 'delete', 'class' => 'btn btn-primary btn-xs')); ?>
                     <?php if ($controller_name == 'customers') : ?>
                         <?php
-                        echo anchor("$controller_name/excel_import/width:$form_width", "<div class='btn btn-default btn-xs' style='float: left; margin-right: 10px'><span>Excel Import</span></div>", array('class' => 'thickbox none', 'title' => 'Import Items from Excel'));
+                        echo anchor("$controller_name/excel_import/width:$form_width", "<div class='btn btn-default btn-xs' style='float: left; margin-right: 10px'><span>Importar de excel</span></div>", array('class' => 'thickbox none', 'title' => 'Import Items from Excel'));
                         ?>	
                     <?php endif; ?>
                     <a href="#" class="btn btn-default btn-xs" style="color: white" id="email"><?php echo $this->lang->line("common_email"); ?></a>

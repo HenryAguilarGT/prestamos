@@ -30,6 +30,6 @@ $lang["common_my_wallet"] = "Mi Billetera";
 $lang["common_total_wallet"] = "Cartera total";
 $lang["common_loans"] = "Préstamos";
 $lang["common_total_loans"] = "Préstamos total";
-$lang["common_borrowers"] = "Prestatarios";
-$lang["common_total_borrowers"] = "Prestatarios total";
+$lang["common_borrowers"] = "Clientes";
+$lang["common_total_borrowers"] = "Clientes total";
 ?>

@@ -54,7 +54,7 @@ if ($_POST)
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-        <title>Install | K-Loans</title>
+        <title>Install | Prestamos</title>
         <script src="<?= str_replace("index.php", "", $_SERVER['PHP_SELF']) ?>../js/jquery.min.js"></script>
         <script src="<?= str_replace("index.php", "", $_SERVER['PHP_SELF']) ?>../install/js/jquery.form.min.js"></script>
 

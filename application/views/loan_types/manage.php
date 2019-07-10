@@ -7,7 +7,7 @@
 
 <div class="hide-staff" style="display: none;">
     <select class="form-control input-sm hidden-xs" id="sel-staff">
-        <option value="0">Select staff</option>
+        <option value="0">Seleccione empleado</option>
         <?php foreach ($staffs as $staff): ?>
             <option value="<?= $staff->person_id; ?>" <?= ((isset($_GET['employee_id'])) && $_GET['employee_id'] === $staff->person_id) ? 'selected="selected"' : ""; ?>><?= $staff->first_name . " " . $staff->last_name; ?></option>
         <?php endforeach; ?>

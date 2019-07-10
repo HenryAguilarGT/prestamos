@@ -47,7 +47,7 @@ $lang['common_inv'] = 'inv';
 $lang['common_det'] = 'details';
 $lang['common_remarks'] = 'Remarks';
 $lang['common_trans_id'] = 'TRX. ID';
-$lang['common_search'] = "Type your search here...";
+$lang['common_search'] = "Escriba sus terminos de busqueda aqui......";
 $lang['common_print'] = "Print";
 
 $lang['common_action'] = "Action";

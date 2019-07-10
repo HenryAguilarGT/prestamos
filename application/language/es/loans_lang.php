@@ -23,7 +23,7 @@ $lang['loans_customer'] = 'Cliente';
 $lang['loans_agent'] = 'Agente';
 $lang['loans_approver'] = 'Aprobar por';
 
-$lang['loans_customer_required'] = 'Prestatario es un campo obligatorio';
+$lang['loans_customer_required'] = 'Cliente es un campo obligatorio';
 $lang['loans_type_required'] = 'Tipo de préstamo es un campo obligatorio';
 $lang['loans_account_required'] = 'Cuenta del préstamo es un campo obligatorio';
 $lang['loans_amount_required'] = 'El monto del préstamo es un campo obligatorio';

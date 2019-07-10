@@ -1,7 +1,7 @@
 <?php
 $lang['module_home'] = 'Inicio';
 
-$lang['module_customers']='Prestatario';
+$lang['module_customers']='Clientes';
 $lang['module_customers_desc'] = 'Agregar, Actualizar, Borrar y Buscar clientes';
 
 $lang['module_suppliers'] = 'Proveedores';

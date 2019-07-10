@@ -169,10 +169,10 @@
                                                     </a>
                                                     <ul class="children nav">
                                                         <?php if ($module->module_id !== "messages"): ?>
-                                                            <li><a href="<?php echo site_url("$module->module_id"); ?>/view/-1" class="<?= $select_new; ?>">New</a></li>
-                                                            <li><a href="<?php echo site_url("$module->module_id"); ?>" class="<?= $select_list; ?>">List</a></li>
+                                                            <li><a href="<?php echo site_url("$module->module_id"); ?>/view/-1" class="<?= $select_new; ?>">Nuevo</a></li>
+                                                            <li><a href="<?php echo site_url("$module->module_id"); ?>" class="<?= $select_list; ?>">Ver todos</a></li>
                                                         <?php elseif ($module->module_id === "messages"): ?>                                                            
-                                                            <li><a href="<?php echo site_url("$module->module_id"); ?>/view/-1" class="<?= ($this->uri->segment(1) === "messages" && $this->uri->segment(2) === "view" ? "active" : ""); ?>">New</a></li>
+                                                            <li><a href="<?php echo site_url("$module->module_id"); ?>/view/-1" class="<?= ($this->uri->segment(1) === "messages" && $this->uri->segment(2) === "view" ? "active" : ""); ?>">Nuevo</a></li>
                                                             <li><a href="<?php echo site_url("messages/inbox"); ?>" class="<?= ($this->uri->segment(2) === "inbox" ? "active" : ""); ?>">Inbox</a></li>
                                                             <li><a href="<?php echo site_url("messages/outbox"); ?>" class="<?= ($this->uri->segment(2) === "outbox" ? "active" : ""); ?>">Outbox</a></li>
                                                         <?php endif; ?>
@@ -207,7 +207,7 @@
                                     <div class="kform theme-primary">
                                         <div>
                                             <label class="field append-icon">
-                                                <input type="text" name="search" id="search" class="gui-input" placeholder="Type your search here..." />
+                                                <input type="text" name="search" id="search" class="gui-input" placeholder="Escriba sus terminos de busqueda aqui......" />
                                                 <label for="search" class="field-icon">
                                                     <i class="fa fa-search"></i>
                                                 </label>
