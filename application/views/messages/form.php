@@ -9,7 +9,7 @@
                 <h2>My Mail</h2>
                 <ol class="breadcrumb">
                     <li>
-                        <a href="<?= site_url(); ?>">Home</a>
+                        <a href="<?= site_url(); ?>">Inicio</a>
                     </li>
                     <li>
                         <a>Mailbox</a>

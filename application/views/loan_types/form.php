@@ -9,7 +9,7 @@
                 <h2><?php echo $this->lang->line('common_list_of') . ' ' . $this->lang->line('module_' . $controller_name); ?></h2>
                 <ol class="breadcrumb">
                     <li>
-                        <a href="<?= site_url(); ?>">Home</a>
+                        <a href="<?= site_url(); ?>">Inicio</a>
                     </li>
                     <li>
                         <a href="<?= site_url("loan_types"); ?>"><?= ucwords($this->lang->line('module_' . $controller_name)); ?></a>

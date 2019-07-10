@@ -1,4 +1,4 @@
-<?php $lang['employees_employee'] = "Employee";
+<?php $lang['employees_employee'] = "Empleado";
 $lang['employees_new'] = "New Employee";
 $lang['employees_update'] = "Update Employee";
 $lang['employees_confirm_delete'] = "Are you sure you want to delete the selected employees?";
