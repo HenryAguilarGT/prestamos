@@ -1,5 +1,5 @@
 <?php
-$lang['payments_new'] = 'Nueva Pago';
+$lang['payments_new'] = 'Nuevo Pago';
 $lang['payments_loan'] = 'Préstamo';
 $lang['payments_account'] = 'Cuenta #';
 $lang['payments_teller'] = 'Agente';

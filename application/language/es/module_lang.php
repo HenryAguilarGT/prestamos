@@ -34,7 +34,7 @@ $lang['module_item_kits_desc'] = 'Agregar, Actualizar, Borrar y Buscar Kits de A
 $lang['module_loans']='Prestamos';
 $lang['module_loans_desc']='Agregar, Actualizar, Borrar y Buscar Prestamos';
 
-$lang['module_payments']='Payments';
+$lang['module_payments']='Pagos';
 $lang['module_payments_desc']='Agregar, Actualizar, Borrar y Buscar el Pago';
 
 $lang['module_loan_types']='Prestamos el tipo';
