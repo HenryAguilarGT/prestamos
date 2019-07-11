@@ -244,7 +244,7 @@
                                     <li>
                                         <div class="text-center link-block">
                                             <a href="<?= site_url("messages/inbox"); ?>" class="animated animated-short fadeInUp">
-                                                <i class="fa fa-envelope"></i> <strong>Read All Messages</strong>
+                                                <i class="fa fa-envelope"></i> <strong>Leer todos los mensajes</strong>
                                             </a>
                                         </div>
                                     </li>
@@ -273,7 +273,7 @@
                                     <li>
                                         <div class="text-center link-block">
                                             <a href="javascript:void(0)" class="animated animated-short fadeInUp">
-                                                <strong>See All Alerts</strong>
+                                                <strong>Ver todas las alerts</strong>
                                                 <i class="fa fa-angle-right"></i>
                                             </a>
                                         </div>
@@ -287,11 +287,11 @@
                                 </a>
 
                                 <ul class="dropdown-menu animated m-t-xs">
-                                    <li><a href="<?= site_url("employees/view/" . $user_info->person_id); ?>" class="animated animated-short fadeInUp"><i class="fa fa-user"></i> Profile</a></li>
-                                    <li><a href="<?= site_url("customers"); ?>" class="animated animated-short fadeInUp"><i class="fa fa-group"></i> Contacts</a></li>
+                                    <li><a href="<?= site_url("employees/view/" . $user_info->person_id); ?>" class="animated animated-short fadeInUp"><i class="fa fa-user"></i> Perfil</a></li>
+                                    <li><a href="<?= site_url("customers"); ?>" class="animated animated-short fadeInUp"><i class="fa fa-group"></i> Contact0s</a></li>
                                     <li><a href="<?= site_url("messages/inbox") ?>" class="animated animated-short fadeInUp"><i class="fa fa-inbox"></i> Mailbox</a></li>
                                     <li class="divider"></li>
-                                    <li><a href="<?= site_url("home/logout")?>" class="animated animated-short fadeInUp"><i class="fa fa-sign-out"></i> Logout</a></li>
+                                    <li><a href="<?= site_url("home/logout")?>" class="animated animated-short fadeInUp"><i class="fa fa-sign-out"></i> Salir</a></li>
                                 </ul>
 
                             </li>

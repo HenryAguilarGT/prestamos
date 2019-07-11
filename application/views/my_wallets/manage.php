@@ -20,7 +20,7 @@
             <div class="inqbox-content">
                 <h2>
                     <i class="fa fa-briefcase" style="font-size: 40px; color:#e80a0a"></i> 
-                    My Wallet (<span id="wallet_total"><?php echo to_currency($wallet_total); ?></span>)
+                    Mi caja (<span id="wallet_total"><?php echo to_currency($wallet_total); ?></span>)
                     <input type="hidden" id="available_amount" value="<?= $wallet_total ?>" />
                 </h2>
                 <ol class="breadcrumb">
@@ -28,7 +28,7 @@
                         <a href="<?= site_url(); ?>">Inicio</a>
                     </li>
                     <li>
-                        <a>My Wallet</a>
+                        <a>Mi caja</a>
                     </li>
                     <li class="active">
                         <strong>Ver todos</strong>

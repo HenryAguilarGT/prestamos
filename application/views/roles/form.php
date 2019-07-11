@@ -15,7 +15,7 @@
                         <a href="<?= site_url("roles"); ?>"><?= ucwords($this->lang->line('module_' . $controller_name)); ?></a>
                     </li>
                     <li class="active">
-                        <strong>Add</strong>
+                        <strong>Agregar</strong>
                     </li>
                 </ol>
             </div>

@@ -1701,7 +1701,7 @@ DataTable.defaults = {
 		 *      } );
 		 *    } );
 		 */
-		"sZeroRecords": "No matching records found"
+		"sZeroRecords": "No registros encontrados"
 	},
 
 

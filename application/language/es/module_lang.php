@@ -46,7 +46,7 @@ $lang['module_overdues_desc']='Listar y buscar pagos perdidos';
 $lang['module_roles']='Roles';
 $lang['module_roles_desc']='Roles de lista y búsqueda';
 
-$lang['module_my_wallets']='Mi billetera';
+$lang['module_my_wallets']='Mi caja';
 $lang['module_my_wallets_desc']='Listar y buscar en los registros de Wallet';
 
 $lang['module_messages']='Mensajes';

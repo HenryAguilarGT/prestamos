@@ -35,7 +35,7 @@
                         <?php echo form_open('login', array('class' => 'form-signin')) ?>
                         <span style="color:red"><?php echo validation_errors(); ?></span>
                         <div class="form-group">
-                            <label>Username</label>
+                            <label>Usuario</label>
                             <input type="text" class="form-control" placeholder="Username" required="" name="username" size="2">
                         </div>
                         <div class="form-group">
@@ -44,7 +44,7 @@
                         </div>
                         <button type="submit" class="btn btn-primary block full-width m-b">Login</button>
                         <a href="javascript:void(0)">
-                            <small>Forgot password?</small>
+                            <small>Olvido password?</small>
                         </a>
                         <!--
                         <p class="text-muted text-center">
@@ -60,7 +60,7 @@
             <hr/>
             <div class="row">
                 <div class="col-md-6">
-                    Copyright <?php echo COMPANY_NAME; ?>
+                    Copyright Sistemas HBS
                 </div>
                 <div class="col-md-6 text-right">
                     <small>© 2015-<?php echo date('Y'); ?></small>
@@ -84,8 +84,8 @@
                             <?php echo form_open('login/signup', array('class' => 'form-signin', 'id' => 'frmSignup')) ?>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <label>Username *</label>
-                                    <input type="text" class="form-control" placeholder="Username" required="" name="reg_username">
+                                    <label>Username </label>
+                                    <input type="text" class="form-control" placeholder="Usuario" required="" name="reg_username">
                                 </div>
                             </div>
                             <div class="col-lg-6">

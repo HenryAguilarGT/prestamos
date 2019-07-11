@@ -12,7 +12,7 @@ $lang['my_wallet_successful_updating'] = 'Ha actualizado correctamente el regist
 $lang['my_wallet_error_adding_updating'] = 'Error al agregar / actualizar el registro';
 $lang['my_wallet_successful_deleted'] = 'Ha eliminado correctamente';
 $lang['my_wallet_confirm_delete'] = '¿Está seguro de que desea eliminar el registro seleccionado?';
-$lang['my_wallet_one_or_multiple'] = 'Mi billetera(s)';
+$lang['my_wallet_one_or_multiple'] = 'Mi caja(s)';
 $lang['my_wallet_cannot_be_deleted'] = 'No se pudo eliminar el registro(s)';
 
 $lang['my_wallet_amount_required']='El importe es un campo obligatorio';
@@ -26,7 +26,7 @@ $lang["my_wallet_type"] = "Tipo de cartera";
 $lang["my_wallet_transfer"] = "Transferir a";
 $lang["my_wallet_exceed_amount"] = "La cantidad no debe exceder en su saldo de cartera";
 
-$lang["common_my_wallet"] = "Mi Billetera";
+$lang["common_my_wallet"] = "Mi caja";
 $lang["common_total_wallet"] = "Cartera total";
 $lang["common_loans"] = "Préstamos";
 $lang["common_total_loans"] = "Préstamos total";
