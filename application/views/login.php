@@ -42,7 +42,7 @@
                             <label>Password</label>
                             <input type="password" class="form-control" placeholder="Password" required="" name="password">
                         </div>
-                        <button type="submit" class="btn btn-primary block full-width m-b">Login</button>
+                        <button type="submit" class="btn btn-primary block full-width m-b">Ingresar</button>
                         <a href="javascript:void(0)">
                             <small>Olvido password?</small>
                         </a>

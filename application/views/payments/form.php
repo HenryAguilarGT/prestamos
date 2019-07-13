@@ -10,7 +10,7 @@
     <div class="col-lg-12">
         <div class="inqbox float-e-margins">
             <div class="inqbox-content">
-                <h2><?php echo 'New ' . $this->lang->line('module_' . $controller_name); ?></h2>
+                <h2><?php echo 'Agregar ' . $this->lang->line('module_' . $controller_name); ?></h2>
                 <ol class="breadcrumb">
                     <li>
                         <a href="<?= site_url(); ?>">Inicio</a>

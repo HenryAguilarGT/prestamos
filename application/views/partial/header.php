@@ -98,7 +98,7 @@
                                     <h2><a href="/"><?php echo APP_NAME; ?></a></h2>
                                 </div>
                                 <div class="logo-element">
-                                    KL
+                                    P
                                 </div>
                             </div>
                         </li>
@@ -121,18 +121,18 @@
                             </div>
 
                             <div class="leftpanel-userinfo collapse" id="loguserinfo" style="position: absolute; background: #3b4354!important">
-                                <h5 class="sidebar-title">Address</h5>
+                                <h5 class="sidebar-title">Direccion</h5>
                                 <address>
                                     <?php echo $user_info->address_1; ?>
                                 </address>
-                                <h5 class="sidebar-title">Contact</h5>
+                                <h5 class="sidebar-title">Contacto</h5>
                                 <ul class="list-group">
                                     <li class="list-group-item">
                                         <label class="pull-left">Email</label>
                                         <span class="pull-right"><?php echo $user_info->email; ?></span>
                                     </li>                                    
                                     <li class="list-group-item">
-                                        <label class="pull-left">Social</label>
+                                        <label class="pull-left">Redes Sociales</label>
                                         <div class="social-icons pull-right">
                                             <a href="#"><i class="fa fa-facebook-official"></i></a>
                                             <a href="#"><i class="fa fa-twitter"></i></a>

@@ -79,7 +79,7 @@
                         <li><a data-toggle="tab" href="#sectionB"><?= $this->lang->line("loans_misc_fees"); ?></a></li>
                         <li><a data-toggle="tab" href="#sectionC"><?= $this->lang->line('loans_attachments') ?></a></li>
                         <li><a data-toggle="tab" href="#sectionE"><?= $this->lang->line('guarantee') ?></a></li>
-                        <li><a data-toggle="tab" href="#sectionF">Loan Calculator</a></li>
+                        <li><a data-toggle="tab" href="#sectionF">Calculadora</a></li>
                     </ul>
                     <div class="tab-content">
                         <div id="sectionA" class="tab-pane fade in active">
@@ -401,7 +401,7 @@
                                                 <?php endforeach; ?>
                                             <?php endif; ?>
                                         </ul>
-                                        <a href="<?=  site_url(); ?>/loans/attachments/<?= $loan_info->loan_id; ?>/proof" data-toggle='modal' data-target='#attachment_modal' >Select from attachment</a>
+                                        <a href="<?=  site_url(); ?>/loans/attachments/<?= $loan_info->loan_id; ?>/proof" data-toggle='modal' data-target='#attachment_modal' >Seleccionar de adjunto</a>
                                     </div>      
                                 </div>
                             </div>
@@ -418,7 +418,7 @@
                                             <?php endforeach; ?>
                                         <?php endif; ?>
                                     </ul>
-                                    <a href="<?=  site_url(); ?>/loans/attachments/<?= $loan_info->loan_id; ?>/images" data-toggle='modal' data-target='#attachment_modal'>Select from attachment</a>
+                                    <a href="<?=  site_url(); ?>/loans/attachments/<?= $loan_info->loan_id; ?>/images" data-toggle='modal' data-target='#attachment_modal'>Seleccionar de adjunto</a>
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>
@@ -479,7 +479,7 @@
 
                 <div class="form-group">
                     <label class="col-sm-2 control-label">
-                        Current Balance:
+                        Saldo Actual:
                     </label>
                     <div class="col-sm-10">
                         <span id="sp-current-balance"><?php echo $loan_info->loan_balance; ?></span>

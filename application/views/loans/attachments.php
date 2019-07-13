@@ -30,7 +30,7 @@
         <?php endforeach; ?>
     </ul>
     <?php else: ?>
-    <div class="alert alert-info">No attachment found.</div>
+    <div class="alert alert-info">Arhivo adjunto no encontrado.</div>
     <?php endif;?>
 </div>
 

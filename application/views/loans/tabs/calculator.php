@@ -9,7 +9,7 @@
 
 <div class="form-group">
     <label class="col-sm-2 control-label">
-    Loan Amount:
+    Monto del prestamo:
     </label>
     <div class="col-sm-2">
         <input type="hidden" id="amount" name="amount" value="<?=$loan_info->loan_amount;?>" />
@@ -32,7 +32,7 @@
 <div class="hr-line-dashed"></div>
 <div class="form-group">
     <label class="col-sm-2 control-label">
-        Interest Rate:
+        Tasa de interés:
     </label>
     <div class='col-sm-2'>
         <div class="input-group">
@@ -64,7 +64,7 @@
 <div class="hr-line-dashed"></div>
 <div class="form-group">
     <label class="col-sm-2 control-label">
-        Start Date:
+        Fecha de inicio:
     </label>
     <div class='col-sm-2'>
         <div class="input-group date">
@@ -78,7 +78,7 @@
 <div class="hr-line-dashed"></div>
 <div class="form-group">
     <label class="col-sm-2 control-label">
-        Payment Amount:
+        Monto del pago
     </label>
     <div class="col-sm-2">
         <div id="loan-total-amount">0.00</div>
@@ -92,7 +92,7 @@
         &nbsp;
     </label>
     <div class="col-sm-4">
-        <button class="btn btn-primary" type="button" id="btn-loan-calculator">Calculate</button>
+        <button class="btn btn-primary" type="button" id="btn-loan-calculator">Calcular</button>
     </div>
 </div>
 <div class="hr-line-dashed"></div>
