@@ -105,11 +105,11 @@
             <?php if (count($c_payment_scheds["payment_breakdown"]["balance"]) > 0): ?>
                 <table class="table table-bordered">
                     <tr>
-                        <td style="text-align:center">Date</td>
-                        <td style="text-align:center">Payment Amount</td>
-                        <td style="text-align:center">Principal Amount</td>
-                        <td style="text-align:center">Interest Amount</td>
-                        <td style="text-align:center">Balance Owed</td>
+                        <td style="text-align:center">Fecha</td>
+                        <td style="text-align:center">Pago/Cuota</td>
+                        <td style="text-align:center">Capital</td>
+                        <td style="text-align:center">Interes</td>
+                        <td style="text-align:center">Saldo</td>
                     </tr>
                     <?php for ($i = 0; $i < count($c_payment_scheds["payment_breakdown"]["balance"]); $i++): ?>
                         <tr>
@@ -172,11 +172,11 @@
             var table_scheds = '<table class="table table-bordered">';
             
             table_scheds += '<tr>';
-            table_scheds += '<td style="text-align:center">Date</td>';
-            table_scheds += '<td style="text-align:center">Payment Amount</td>';
-            table_scheds += '<td style="text-align:center">Principal Amount</td>';
-            table_scheds += '<td style="text-align:center">Interest Amount</td>';
-            table_scheds += '<td style="text-align:center">Balance Owed</td>';
+            table_scheds += '<td style="text-align:center">Fecha</td>';
+            table_scheds += '<td style="text-align:center">Pago/Cuota</td>';
+            table_scheds += '<td style="text-align:center">Capital</td>';
+            table_scheds += '<td style="text-align:center">Interes</td>';
+            table_scheds += '<td style="text-align:center">Saldo</td>';
             table_scheds += '</tr>';
             
             var total_amount = 0;
