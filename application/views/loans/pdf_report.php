@@ -41,8 +41,8 @@
                 <td><?= $this->lang->line("loans_type"); ?></td>
                 <td><?= $loan_type->name; ?></td>
                 <td><?= $this->lang->line("loan_type_term"); ?></td>
-                <td><?= $loan_type->term; ?> year(s)</td>
-                <td>APR</td>
+                <td><?= $loan_type->term; ?> año(s)</td>
+                <td>Interes anual</td>
                 <td><?= $apr ?>%</td>
             </tr>
             <tr>

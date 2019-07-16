@@ -46,7 +46,7 @@
                 <td>Flexible</td>
                 <td><?= $this->lang->line("loan_type_term"); ?></td>
                 <td><?= $c_payment_scheds["term"] . " " . $c_payment_scheds["term_period"]; ?></td>
-                <td>Interest Rate:</td>
+                <td>Tasa de interes:</td>
                 <td><?= $c_payment_scheds['interest_rate']; ?>%</td>
             </tr>
             <tr>
