@@ -33,18 +33,18 @@ $lang['loans_breakdown'] = 'Generar Desglose';
 $lang['loans_approve'] = 'Aprobar';
 $lang['loans_type'] = 'Tipo de Préstamo';
 $lang['loans_overdue'] = 'Vencidas';
-$lang['loans_disclosure_title'] = 'DESCUENTO Y DIVULGACIÓN DECLARACIÓN DE SOLICITUD DE PRÉSTAMO';
+$lang['loans_disclosure_title'] = 'DECLARACIÓN DE SOLICITUD DE PRÉSTAMO';
 $lang['loans_schedule_title'] = 'REEMBOLSO PROGRAMAR';
 $lang['loans_attachments'] = 'Adjuntos';
 $lang['loans_attachments_message'] = 'Aceptado tipos de archivo jpg, gif, png, xls, xlsx, csv, doc, docx, pdf';
-$lang['loans_disclosure'] = 'Imprimir Divulgación';
+$lang['loans_disclosure'] = 'Imprimir Solicitud';
 
 $lang['loans_information'] = 'Información del Préstamo';
-$lang['loans_misc_fees'] = 'Información del Préstamo';
+$lang['loans_misc_fees'] = 'Cargos Adicionales';
 
 $lang['loans_paid'] = 'Cancelados';
 $lang['loans_unpaid'] = 'Vigentes';
 $lang['loans_overdue'] = 'Vencidos';
-$lang['loans_fee'] = 'Cuotas';
+$lang['loans_fee'] = 'Concepto';
 
 ?>

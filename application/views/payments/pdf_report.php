@@ -33,37 +33,37 @@
 
             <table width="100%">
                 <tr>
-                    <td>Date:</td>
+                    <td>Fecha:</td>
                     <td align="right"><?= $trans_date; ?></td>
                 </tr>
                 <tr>
-                    <td>Account:</td>
+                    <td>Cuenta No</td>
                     <td align="right"><?= $account; ?></td>
                 </tr>
                 <tr>
-                    <td>Borrower:</td>
+                    <td>Cliente:</td>
                     <td align="right"><?= $client; ?></td>
                 </tr>
                 <tr>
                     <td colspan="2"><hr></td>
                 </tr>
                 <tr>
-                    <td>Loan:</td>
+                    <td>Monto del prestsamo:</td>
                     <td align="right"><?= $loan; ?></td>
                 </tr>
                 <tr>
-                    <td>Paid:</td>
+                    <td>Pagado:</td>
                     <td align="right"><?= $paid; ?></td>
                 </tr>
                 <tr>
                     <td colspan="2"><hr></td>
                 </tr>
                 <tr>
-                    <td>Balance:</td>
+                    <td>Saldo:</td>
                     <td align="right"><?= $balance; ?></td>
                 </tr>
                 <tr>
-                    <td>Count No.</td>
+                    <td>Pago No.</td>
                     <td align="right"><?= $count; ?></td>
                 </tr>
             </table>
@@ -75,7 +75,8 @@
             <table width="100%">
                 <tr>
                     <td align="center">
-                        <h3>Thank you!</h3>
+                        <h3>Gracias por su pago!</h3>
+                        <p class="text-center">Procure hacer sus pagos a puntualmente para mantener su record crediticio limpio y evitar pagar intereses por cargos moratorios</p>
                     </td>
                 </tr>
             </table>

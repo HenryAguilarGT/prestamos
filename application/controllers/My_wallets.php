@@ -25,7 +25,7 @@ class My_wallets extends Secure_area implements iData_controller {
     function view($wallet_id = -1)
     {
         $data['wallet_info'] = $this->My_wallet->get_info($wallet_id);
-        $data['wallet_types'] = array("debit" => "debit", "credit" => "credit", "transfer" => "transfer");
+        $data['wallet_types'] = array("debito" => "debito", "credito" => "credito", "transferencia" => "transferencia");
         $people = $this->Employee->get_all();
         
         $tmp = array(0=>"Please Select");

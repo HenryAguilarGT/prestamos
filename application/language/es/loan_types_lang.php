@@ -49,8 +49,8 @@ $lang['loan_type_acknowledgment']='Me acusó recibo de una copia de la declaraci
              TRANSACCIONES Y QUE ENTIENDEN Y TOTALMENTE DE ACUERDO CON LOS TÉRMINOS Y CONDICIONES AL RESPECTO.';
 $lang['loan_type_interest_rate']='Tasa de interés';
 $lang['loan_type_schedules']='Horarios';
-$lang['loan_type_schedule']='Programar';
-$lang['loan_type_balance']='Equilibrar';
+$lang['loan_type_schedule']='Fecha de pago';
+$lang['loan_type_balance']='Saldo';
 $lang['loan_type_payment']='Pago';
-$lang['loan_type_interest']='Interesar';
+$lang['loan_type_interest']='Intereses';
 ?>

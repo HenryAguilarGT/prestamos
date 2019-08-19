@@ -11,5 +11,5 @@
 </div>
 
 <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal" id="btn-close">Close</button>
+    <button type="button" class="btn btn-default" data-dismiss="modal" id="btn-close">Cerrar</button>
 </div>

@@ -105,7 +105,7 @@
 <div class="row">
     <div class="form-group">
         <div class="col-sm-4 col-sm-offset-2">
-            <button type="button" class="btn btn-default" data-dismiss="modal" id="btn-close">Close</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal" id="btn-close">Cerrar</button>
             <?php
             echo form_submit(
                     array(
