@@ -133,7 +133,7 @@
             
             if ( $("#start_date").val() == '' )
             {
-                alertify.alert("Please enter the start date");
+                alertify.alert("Por favor ingrese una fech de Inicio");
                 return false;
             }
             
@@ -158,7 +158,7 @@
             }
             
             var loan_amount = $("#amount1").val();
-            var interest_rate = ($("#interest_rate").val() / 100) / frequency;
+            var interest_rate = ($("#interest_rate").val()) / frequency;
             
             var payment_amount = 0;
             
