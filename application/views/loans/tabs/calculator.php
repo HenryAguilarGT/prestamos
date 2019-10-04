@@ -158,7 +158,8 @@
             }
             
             var loan_amount = $("#amount1").val();
-            var interest_rate = ($("#interest_rate").val()) / frequency;
+            var interest_rate = ($("#interest_rate").val() * 0.035073) / frequency;
+            // var interest_rate = ($("#interest_rate").val() / 100) / frequency;
             
             var payment_amount = 0;
             
