@@ -8516,3 +8516,12 @@ table.tc-va-b-last tbody td:last-child {
     background: #e5e6e7;
     cursor: pointer;
 }
+
+#montofinanciar {
+    background-color: #1c84c6;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color:#fff;
+    font-size: 32px;
+}

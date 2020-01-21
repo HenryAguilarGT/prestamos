@@ -7,6 +7,8 @@
     <ul id="error_message_box"></ul>
 </div>
 
+
+
 <div class="form-group">
     <label class="col-sm-2 control-label">
     Monto del prestamo:
@@ -37,6 +39,7 @@
     <div class='col-sm-2'>
         <div class="input-group">
             <input type="text" class="form-control" name="interest_rate" id="interest_rate" value="<?= $c_payment_scheds["interest_rate"] ?>" />
+            <!-- <input type="text" class="form-control" name="interest_rate" id="interest_rate" value="0.17" /> -->
             <span class="input-group-addon">%</span>
         </div>
     </div>
@@ -158,14 +161,19 @@
             }
             
             var loan_amount = $("#amount1").val();
-            var interest_rate = ($("#interest_rate").val() * 0.035073) / frequency;
-            // var interest_rate = ($("#interest_rate").val() / 100) / frequency;
+            // var interest_rate = ($("#interest_rate").val() * 0.035073) / frequency;/ Mynor
+
+            var interest_rate = ($("#interest_rate").val() / 100) / frequency;
+
+            //  var interest_rate = ($("#interest_rate").val() / 8.30) / frequency;
             
             var payment_amount = 0;
             
             var r = (1 + interest_rate) ;
             var pow = Math.pow(r, term);
             
+            // payment_amount = loan_amount * ( (interest_rate * pow)  / (pow - 1) );
+
             payment_amount = loan_amount * ( (interest_rate * pow)  / (pow - 1) );
             
             $("#loan-total-amount").html( addCommas( payment_amount.toFixed(2) ) );
