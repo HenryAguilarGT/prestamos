@@ -16,7 +16,7 @@
                     </div>
                         <div class="form-group">
                         <label for="exampleInputEmail1">Tasa de interés</label>
-                    <input type="text" class="form-control" id="tasa" placeholder="Tasa de interés" value="17" readonly>
+                    <input type="text" class="form-control" id="tasa" placeholder="Tasa de interés" value="17">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Plazo (dias)</label>
